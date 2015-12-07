@@ -6,6 +6,16 @@
 //  Copyright (c) 2015年 macmini. All rights reserved.
 //
 
+//Block就不是变量 而是类型
+//表示返回值为空，参数为空的方法指针
+typedef void (^Block5) (void);
+
+//声明的时候参数可以不写参数名
+typedef void (^Block6) (int, int);
+
+typedef int (^Block7) (int, int);
+
+
 #import "ViewController.h"
 
 
@@ -104,6 +114,29 @@
      */
     //实现的时候参数需要写参数名，实现的时候参数是要用的，如果不写参数名没意义
     
+    
+//    Block5 test = ^(void) {
+//        NSLog(@"Block5类型的block");
+//    };
+//    
+//    test();
+//    
+//    //实现的时候参数需要写参数名，实现的时候参数是要用的，如果不写参数名没意义
+//    Block6 test2 = ^(int b, int c) {
+//        NSLog(@"-->%d", b);
+//    };
+//    test2(5, 1);
+//    
+//    Block7 test3 = ^(int a, int b) {
+//        return a + b;
+//    };
+//    NSLog(@"得到的结果是：%d", test3(1, 2));
+    
+//    Block6 test6 = ^(int a, int b){
+//        NSLog(@"a + b = %d",a + b);
+//    };
+//    
+//    test6(5,8);
 }
 
 - (void)didReceiveMemoryWarning {

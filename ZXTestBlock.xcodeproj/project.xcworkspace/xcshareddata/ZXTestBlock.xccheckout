@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>262AE441-3D10-4FC5-A4CB-33F4F7D227FB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ZXTestBlock</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BE25A03955542E744E4306D35A02A2FAE6CA08FD</key>
+		<string>https://github.com/zhangxin0915/ZXTestBlock.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ZXTestBlock.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BE25A03955542E744E4306D35A02A2FAE6CA08FD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zhangxin0915/ZXTestBlock.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BE25A03955542E744E4306D35A02A2FAE6CA08FD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BE25A03955542E744E4306D35A02A2FAE6CA08FD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ZXTestBlock</string>
+		</dict>
+	</array>
+</dict>
+</plist>
