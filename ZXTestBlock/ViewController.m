@@ -17,9 +17,10 @@ typedef int (^Block7) (int, int);
 
 
 #import "ViewController.h"
+#import "MyAlertView.h"
 
 
-@interface ViewController ()
+@interface ViewController () <MyAlertViewDelegate>
 
 @end
 
@@ -137,13 +138,33 @@ typedef int (^Block7) (int, int);
 //    };
 //    
 //    test6(5,8);
-}
+    
+    //代理 回调
+//    MyAlertView *alert1 = [[MyAlertView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+//    alert1.MyAlertViewDelegate = self;
+//    [self.view addSubview:alert1];
 
+  
+    //block 回调
+    MyAlertView *alert2 = [[MyAlertView alloc] initWithFrame:CGRectMake(0, 0, 320, 200)];
+    alert2.alertViewBlock = ^(UIButton *button){
+        NSLog(@"block 回调 button.tag == %ld",button.tag);
+        self.view.backgroundColor = [UIColor grayColor];
+    };
+    [self.view addSubview:alert2];
+
+    
+}
+#pragma mark - MyAlertViewDelegate
+-(void)MyAlertView:(MyAlertView *)MyAlertView button:(UIButton *)button
+{
+    self.view.backgroundColor = [UIColor redColor];
+    NSLog(@"代理 回调 button.tag == %ld",button.tag);
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)btn:(UIButton *)sender {
-}
+
 @end

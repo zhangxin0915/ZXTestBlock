@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A3DE5FB1C17DB9D00DBE760 /* MyAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3DE5FA1C17DB9D00DBE760 /* MyAlertView.m */; settings = {ASSET_TAGS = (); }; };
 		9AEBB4421C119A6100BAC20D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEBB4411C119A6100BAC20D /* main.m */; };
 		9AEBB4451C119A6100BAC20D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEBB4441C119A6100BAC20D /* AppDelegate.m */; };
 		9AEBB4481C119A6100BAC20D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEBB4471C119A6100BAC20D /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A3DE5F91C17DB9D00DBE760 /* MyAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAlertView.h; sourceTree = "<group>"; };
+		9A3DE5FA1C17DB9D00DBE760 /* MyAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAlertView.m; sourceTree = "<group>"; };
 		9AEBB43C1C119A6100BAC20D /* ZXTestBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXTestBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AEBB4401C119A6100BAC20D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AEBB4411C119A6100BAC20D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 				9AEBB4441C119A6100BAC20D /* AppDelegate.m */,
 				9AEBB4461C119A6100BAC20D /* ViewController.h */,
 				9AEBB4471C119A6100BAC20D /* ViewController.m */,
+				9A3DE5F91C17DB9D00DBE760 /* MyAlertView.h */,
+				9A3DE5FA1C17DB9D00DBE760 /* MyAlertView.m */,
 				9AEBB4491C119A6100BAC20D /* Main.storyboard */,
 				9AEBB44C1C119A6100BAC20D /* Images.xcassets */,
 				9AEBB44E1C119A6100BAC20D /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AEBB4481C119A6100BAC20D /* ViewController.m in Sources */,
+				9A3DE5FB1C17DB9D00DBE760 /* MyAlertView.m in Sources */,
 				9AEBB4451C119A6100BAC20D /* AppDelegate.m in Sources */,
 				9AEBB4421C119A6100BAC20D /* main.m in Sources */,
 			);
