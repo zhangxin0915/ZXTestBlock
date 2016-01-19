@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+
+typedef void(^NextVCBlock)(NSString *textField);
+
 @class MyAlertView;
 @protocol MyAlertViewDelegate <NSObject>
 
@@ -24,5 +27,7 @@
 //全局使用block要copy到堆上 而且在dealloc中加上release
 
 @property(nonatomic,copy) void(^alertViewBlock)(UIButton *button);
+
+@property(nonatomic,copy)NextVCBlock nextVCBlock;
 
 @end
